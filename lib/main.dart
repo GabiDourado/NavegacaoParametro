@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: "Aplicativo de venda de roupas",
       theme: ThemeData(primarySwatch: Colors.deepOrange),
       home: const Login(),
